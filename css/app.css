@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+/* section 1 */
+.section-one p{
+   max-width: 50%;
+   margin: auto;
+   color: rgba(0, 0,0, 0.5);
+}
+
+
+/* section 2 */
+.card{
+    width: 18rem;
+    
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.section-two h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.section-two p {
+    font-size: 15px;
+    color: rgba(0, 0,0, 0.5);
+}
+.icon {
+    display: flex;
+    justify-content: flex-end;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+#heading-thin {
+        font-weight: 200;
+        color: rgba(0, 0,0, 0.5);
+        }
+
+#supervisor-border {
+            border-top: 4px solid hsl(180, 62%, 55%);
+        }
+#team-border {
+            border-top: 4px solid hsl(0, 78%, 62%);
+        }
+#karma-border {
+            border-top: 4px solid hsl(34, 97%, 64%);
+        }
+#calculator-border {
+            border-top: 4px solid hsl(212, 86%, 64%);
+        }
+
+/* queries */
+@media (max-width:1024px){
+            .card {
+                width: 15rem;
+                
+            }
+        }
+
+@media(max-width:760px){
+            .card {
+                width: 18rem;
+                
+            }
+        }
+        
